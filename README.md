@@ -1,4 +1,19 @@
-# CM2027 LAB3 Java example
+# Healthcare Data Lake & FHIR Pipeline
+
+![Java](https://img.shields.io/badge/Language-Java_17+-ED8B00?style=for-the-badge&logo=java) ![FHIR](https://img.shields.io/badge/Standard-HL7_FHIR_R4-fire?style=for-the-badge&logo=hl7&logoColor=white) ![Database](https://img.shields.io/badge/Auth_DB-MongoDB-47A248?style=for-the-badge&logo=mongodb)
+
+### Overview
+A robust **Command Line Interface (CLI)** application designed for clinical environments. This system separates **Authentication/User Management** (stored in MongoDB) from **Clinical Data** (stored in a FHIR Server), simulating a real-world secure hospital architecture.
+
+### Key Features
+* **Role-Based Access Control (RBAC):** Distinct interfaces for Practitioners (Doctors) and Patients.
+* **Dual-Database Architecture:**
+    * **MongoDB:** Handles user credentials, session tokens, and application state.
+    * **FHIR Server (HAPI):** Stores standardized patient resources (Patients, Observations, Encounters).
+* **Robust Error Handling:** Graceful connection failure management and user session loops.
+
+---
+
 
 ## Getting Started
 
